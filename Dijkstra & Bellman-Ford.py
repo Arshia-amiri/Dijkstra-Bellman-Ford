@@ -1,4 +1,4 @@
-def dijkstra_no_heap(adj_list, num_vertices, start):
+def dijkstra(graph, num_vertices, start):
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
     visited = set()
